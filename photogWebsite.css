@@ -12,14 +12,23 @@
     margin-top: 1px;
     float: left;
     margin-left: 130px;
+    border-radius:15px;
 }
 .slides{
     width: 100%;
     height:100%;
+    border-radius:15px;
 }
 .carousel {
   width:1030px;
   height:700px;
+  border-radius:15px;
+  overflow: hidden;
+}
+.carousel-inner {
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0);
+    overflow: hidden;
 }
 
 #banner{
